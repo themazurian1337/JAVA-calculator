@@ -1,3 +1,5 @@
+package Calculator;
+
 import javax.swing.*;
 import java.awt.*;
 import  java.awt.event.*;
@@ -20,7 +22,7 @@ public class Calculator implements ActionListener {
 
     Calculator()
     {
-        frame = new JFrame("Simple Calculator");
+        frame = new JFrame("Simple Calculator.Calculator");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(420,520);
         frame.setLayout(null);
